@@ -1,1 +1,1 @@
-This repo conatins my python practice journey
+This repo contains my Mython Learning journey.
