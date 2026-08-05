@@ -1,0 +1,10 @@
+s="Artificial Intelligence"
+print(s[-1:-10])
+print(s[-20:-30])
+print(s[0:30:3])
+print(s[0::-1])
+print(s[-3:-20:-3])
+print(s[-2:-10:3])
+print(s[0:20:-4])
+print(s[::-4])
+print(s[::-6])
