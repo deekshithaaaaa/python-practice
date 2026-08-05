@@ -1,0 +1,1 @@
+This repo conatins my python practice journey
