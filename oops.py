@@ -94,3 +94,64 @@ book1 = Book("Atomic Habits", "James Clear", 500)
 book2 = Book("The Alchemist", "Paulo Coelho", 400)
 print(book1.discount(10))
 print(book2.discount(50))
+
+class Employee:
+    pass
+e1=Employee()
+e2=Employee()
+e3=Employee()
+
+class Dog():
+    def bark(self):
+        print("Dog is barking")
+d1=Dog()
+d1.bark()
+
+class Student:
+    def __init__(self,name,age,branch):
+        self.name=name
+        self.age=age
+        self.branch=branch
+s1=Student("dee",21,'csm')
+print(s1.name)
+print(s1.age)
+print(s1.branch)
+        
+class Car:
+    company='Toyota'
+    def __init__(self,model,price):
+        self.model=model
+        self.price=price
+c1=Car(1,456789)
+c2=Car(2,4727382)
+print(c1.company)
+print(c1.price)
+print(c1.model)
+
+print(c2.company)
+print(c2.model)
+print(c2.price)
+
+class BankAccount:
+    def __init__(self,balance):
+        self.balance=balance
+    def deposit(self,amount):
+        self.balance+=amount
+    def withdraw(self,amount):
+        self.balance-=amount
+a1=BankAccount(10000)
+a1.deposit(2000)
+a1.withdraw(3000)
+print(a1.balance)
+
+class Student:
+    college='ABC'
+    def __init__(self,name):
+        self.name=name
+    @classmethod
+    def change_college(cls,new_college):
+        cls.college=new_college
+Student.change_college("XYZ College")
+s1=Student('dee')
+print(s1.college)
+print(s1.name)        
